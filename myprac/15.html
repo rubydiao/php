@@ -11,7 +11,7 @@
         }
         div{
             width: 50%;
-            margin-left: 400px;
+            margin-left: 375px;
             background-color: white;
             border-radius: 30px;
             border: 0.05px solid black;
@@ -19,23 +19,25 @@
             text-align: center;
             margin-top: 150px;
             padding-top: 5px;
-            padding-bottom: 50px;
+            padding-bottom: 20px;
         }
         input[type=text]{
-            border: 1px solid black;
+            font-family: 'Mitr', sans-serif;
+            border: 1px solid rgb(199, 198, 198);
             border-radius: 10px;
             margin: 10px 200px 0px 200px;
-            padding: 3px 150px 6px 100px;
+            padding: 3px 150px 6px 1px;
         }
         input[type=password]{
-            border: 1px solid black;
+            font-family: 'Mitr', sans-serif;
+            border: 1px solid rgb(199, 198, 198);
             border-radius: 10px;
             margin: 10px 200px 0px 200px;
-            padding: 3px 150px 6px 100px;
+            padding: 3px 150px 6px 1px;
         }
         input[type=submit]{
             border-collapse: collapse;
-            border: 1px solid black;
+            border: 0.05px solid black;
             border-radius: 15px;
             font-family: 'Mitr', sans-serif;
             color: black;
@@ -55,11 +57,11 @@
         <form action="login.php" method="post">
             <label for="username">Username: </label>
             <br>
-            <input type="text" name="username" required>
+            <input type="text" name="username" placeholder="Your username :" required>
             <br>
             <label for="pass">Password: </label>
             <br>
-            <input type="password" name="password" required>
+            <input type="password" name="password" placeholder="Your password :" required>
             <br>
             <input type="submit" value="Sign in">
         </form>
