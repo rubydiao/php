@@ -1,0 +1,36 @@
+body{
+    background-color: #aec9eb;
+    font-family: 'Pattaya', sans-serif;
+
+}
+.again h1{
+    font-size: 80px;
+    margin-left: 620px;
+}
+.header{
+    background-color: #03254c;
+    color: white;
+    margin-top: -10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -9px;
+    margin-right: -8px;
+}
+input[type=submit]{
+    font-family: 'Pattaya', sans-serif;
+    margin-top: 30px;
+    margin-left: 730px;
+    border-collapse: collapse;
+    border-radius: 20px;
+    background-color: #03254c;
+    color: white;
+    font-size: 50px;
+    padding: 3px 50px 3px 50px;
+}
+input[type=submit]:hover{
+    background-color: #aec9eb;
+    color: #03254c;
+}
+label{
+    font-size: 30px;
+}
